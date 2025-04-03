@@ -1,0 +1,123 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: "Roboto", serif;
+    margin: 0;
+    background: url(https://static.wikia.nocookie.net/onepunchman/images/7/76/Mountain_destroyed_by_Saitama_anime.png/revision/latest?cb=20190920192145) no-repeat fixed center;
+    background-size: 100% 100%;
+}
+
+.hero{
+    display: flex;
+    gap: 100px;
+    background-color: rgba(29, 36, 42, 0.9);
+}
+
+.hero img{
+    width: 300px;
+    border-radius: 20px;
+}
+
+#main-div {
+    padding: 100px;
+    color: black;
+}
+
+.header{
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+    background-color: white;
+    z-index: 9999;
+}
+
+.nav-menu{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    align-items: center;
+}
+
+.nav-menu a{
+    text-decoration: none;
+    color: black;
+    opacity: 0.5;
+}
+
+.nav-menu a:hover{
+    color: blue;
+}
+
+.site-identity{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.site-identity img{
+    width: 50px;
+    height: 50px;
+}
+
+.hero-heading h1{
+    font-size: 72px;
+}
+
+.hero-button button{
+    background-color: rgb(255, 174, 0);
+    padding: 20px 40px;
+    color: white;
+    font-size: 18px;
+}
+
+.hero-button button:hover{
+    color: black;
+}
+.menu-btn{
+    background-color: hsl(51, 74%, 70%);
+    color: white !important;
+    padding: 10px 15px;
+}
+
+.sub-heading{
+    font-size: 18px;
+    color: black;
+    font-weight: 600;
+    opacity: 0.5;
+}
+
+.small-text{
+    color: black;
+    opacity: 0.3;
+}
+
+.hero1{
+    margin-top: 200px;
+    gap: 100px;
+}
+
+.hero1 h1{
+    font-size: 50px;
+    text-align: center;
+}
+
+.hero1 p{
+    align-items: center;
+}
+
+.hero1 img{
+    width: 500px;
+}
+
+#main-div2 {
+    padding: 100px;
+}
+
+.hero2 {
+    align-items: center;
+}
